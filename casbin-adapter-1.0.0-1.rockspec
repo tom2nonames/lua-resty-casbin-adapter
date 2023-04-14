@@ -1,17 +1,17 @@
-package = "casbin-adapter"
+package = "lua-resty-casbin-adapter"
 version = "1.0.0-1"
 source = {
-   url = "git://github.com/casbin-lua/luasql-adapter"
+   url = "git://github.com/tom2nonames/lua-resty-casbin-adapter"
 }
 description = {
-   summary = "LuaSQL based adapter for Casbin",
+   summary = "OpenResty based adapter for Casbin",
    detailed = [[
-      LuaSQL based adapter for Casbin which supports policies from SQL based databases.
+      OpenResty based adapter for Casbin that supports policies from SQL-based databases (MySQL, PostgreSQL).
    ]],
-   detailed = "LuaSQL based adapter for Casbin which supports policies from SQL based databases.",
-   homepage = "https://github.com/casbin-lua/luasql-adapter",
+   detailed = "OpenResty based adapter for Casbin that supports policies from SQL-based databases (MySQL, PostgreSQL).",
+   homepage = "https://github.com/tom2nonames/lua-resty-casbin-adapter",
    license = "Apache License 2.0",
-   maintainer = "admin@casbin.org"
+   maintainer = "tom2nonames@gmail.com"
 }
 dependencies = {
    "casbin >= 1.29.0",
